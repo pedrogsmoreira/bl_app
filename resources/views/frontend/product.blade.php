@@ -1038,6 +1038,11 @@ $fullname_h = strtolower($fullname_h);
 
                     <div class="info_product_01 col-xs-6 col-sm-12 hidden-xs">
                         <div class="finishes_product">
+                            <h1 style="border: none;
+                            padding: 0;
+                            margin-top: 0;">
+                                EUR: {{ $product->precoF1 }}€<br>USD: {{ $product->precoF2 }}$
+                            </h1>
                         <h1>Versions
                             @for($i=1; $i<=$finishnumber; $i++)
                             <span class="name_finish_{{ $i }}">- {{ $finish_name[$i] }}</span>
@@ -2159,10 +2164,6 @@ $fullname_h = strtolower($fullname_h);
     @endif
     @endfor
 
-    $('.get_price_produto').on('click', function (e) {
-        e.preventDefault();
-        alert('EUR: {{ $product->precoF1 }}€; USD: {{ $product->precoF2 }}$')
-    });
     
     </script>
     
