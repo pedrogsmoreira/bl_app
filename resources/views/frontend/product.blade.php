@@ -1063,14 +1063,13 @@ $fullname_h = strtolower($fullname_h);
                     </div>
         
                     <div class="col-xs-12 col-sm-12 btn_products hidden-sm hidden-md hidden-lg">
-        
                         <div class="info_product_02">
         
                            
         
                             <button type="button" data-toggle="modal" data-id="{{ $id }}" data-title="Boca do Lobo - GET PRICE Product Page - Main CTA" data-name="{{ $fullname }}" href="#get_price_allproducts" class="col-xs-12 col-sm-12 open-product btn get_price_produto">Get Price</button>
         
-                            <a href="https://api.whatsapp.com/send?phone=351910010529&text=Hello, I'm interested in {{ $fullname }}. Can you help me?" target="_blank"><button type="button" class="col-xs-12 col-sm-12 open-info btn get_price_especialist">TALK WITH A DESIGNER</button></a>
+                            <a href="https://api.whatsapp.com/send?phone=351910010529&text=Hello, I'm interested in {{$fullname }}. Can you help me please?" target="_blank"><button type="button" class="col-xs-12 col-sm-12 open-info btn get_price_especialist">TALK WITH A DESIGNER</button></a>
         
                         </div>
         
